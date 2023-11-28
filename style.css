@@ -1,5 +1,75 @@
-navbar
+#navbar-container
 {
     background-color: aqua;
-    height: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navbar-item
+{
+    background-color: red;
+
+    padding: 15;
+    margin: 5;
+
+    text-align: center;
+    
+
+}
+
+#navbar-item:hover
+{
+    background-color: orange;
+}
+
+#body-container
+{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+#titlebox
+{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 5;
+    padding: 5;
+}
+
+#article-container
+{
+    display: flex;
+    padding: 10;
+}
+
+#blog-content-box
+{
+    background-color: chartreuse;
+    text-align: center;
+    margin: 2;
+    max-width: 33%;
+    
+}
+
+#summary
+{
+    background-color: whitesmoke;
+    margin: 2;
+    padding: 2;
+}
+
+#blog-link
+{
+    background-color: darkblue;
+    color: white;
+    margin: 5;
+    text-decoration: none;
+}
+
+#article-content-container
+{
+
 }
